@@ -1,4 +1,8 @@
-import json
 
 def reverse_str(s: str):
-        return {"original": s, "reversed_text": s[::-1]}
+        result = f"original: {s}, uppercased: {s[::-1]}"
+        return result
+
+def to_upper(s: str):
+    result = f"original: {s}, uppercased: {s.upper()}"
+    return result
